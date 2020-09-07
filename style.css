@@ -1,0 +1,78 @@
+
+
+body {
+    /* margin: 0px; */
+    background-color: #ee7354;
+    font-family: 'raleway',sans-serif;
+    max-width: 420px;
+    margin: 0 auto;
+    align-content: center;
+    line-height: 20px;
+}
+
+
+header {
+    margin: 10px;
+    padding: 20px;
+    background-image:url(https://i.imgur.com/qhLToSP.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    border-radius: 10px;
+    border: black;
+}
+
+h1 {
+    color:#ee7354;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border: 500px black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.descriptions {
+    line-height: 25px;
+}
+
+h2{
+    color: #ee7354;
+    text-decoration:underline;
+}
+
+
+#hover-image {
+    text-align: center;
+    font-weight: bold;
+    color: #ee7354;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@keyframes superSpin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+#hover-image img{
+    animation: superSpin 10s infinite;
+}
+
+#employment-table {
+   text-align: left;
+}
+
+table, th, tr {
+    border: 1px;
+    width:100%;
+    border-color:#ee7354;
+}
+
+th {
+    height: 50px;
+}
